@@ -1,5 +1,5 @@
 ### Firefox search add-on for MDN Web Docs
-Provides direct access to MDN Web Docs from the omnibox on Firefox.
+Provides direct access to MDN Web Docs from the Firefox omnibox.
 
 ### Install
 Install the extension from ADO, [here](https://addons.mozilla.org/en-US/firefox/addon/mdn-web-docs-search/).
