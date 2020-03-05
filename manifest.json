@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "MDN Web Docs Search",
+	"short_name": "mdn-search",
+	"description": "Adds MDN Web Docs as a search engine.",
+	"version": "1.0.0",
+	"icons": {
+		"128": "icons/128x128.png"
+	},
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"favicon_url": "https://developer.mozilla.org/static/img/favicon32.png",
+			"is_default": false,
+			"keyword": "mdn",
+			"name": "MDN Search",
+			"search_url": "https://developer.mozilla.org/search",
+			"search_url_get_params": "q={searchTerms}",
+			"suggest_url": "https://developer.mozilla.org/search",
+			"suggest_url_get_params": "q={searchTerms}"
+		}
+	}
+}
